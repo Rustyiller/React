@@ -1,0 +1,102 @@
+.start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%) !important;
+  }
+
+.tytul {
+    text-shadow: 4px 4px 0px #000, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    margin: 0;
+}
+
+.wtekst {
+    text-shadow: 4px 4px 0px #000, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 44px;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    left: 50%;
+    padding: 20px;
+  }
+
+.blok {
+    filter: blur(1px) grayscale(50%);
+}
+
+.tekst {
+    position: absolute;
+    width: 30%; 
+    text-align: justify; 
+    font-size: 20px;
+}
+
+.pierwszy {
+    width: 100%;
+    height: vh;
+    top: 0;
+    position: absolute;
+}
+
+.drugi {
+    width: 100%;
+    height: vh;
+    top: 75%;
+    position: absolute;
+}
+
+.trzeci {
+    width: 100%;
+    height: vh;
+    top: 150%;
+    position: absolute;
+}
+
+.czwarty {
+    width: 100%;
+    height: vh;
+    top: 225%;
+    position: absolute;
+}
+
+.ikonal {
+    width: 150px;
+    height: 150px;
+    top: 115%;
+    position: absolute;
+    margin-top: 20px,
+}
+
+.ikonar {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.profil {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -100%;
+}
+
+.name {
+    position: absolute;
+    top: 300%;
+    padding: 20px;
+}
